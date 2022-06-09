@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 62.5%;
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-8/cur736.ani), url(https://cur.cursors-4u.net/cursors/cur-8/cur736.png), auto !important;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(23,23,23);
+    text-align: center;
+    height: 100vh;
+}
+header{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.login-card{
+    background-color: black;
+    width: 50rem;
+    height: 600px;
+    border-radius: 20px;
+    margin: 0 auto;
+    transform: translateY(15%);
+}
+.text-large{
+    color: white;
+    font-weight: 300;
+    font-size: 3rem;
+    padding-bottom: 8px;
+}
+
+.text-small{
+    color: #d3d3d3;
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+}
+#logo{
+    width: 9rem;
+    margin-bottom: 20px;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    ani
+
+}
+.input-icon{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 77%;
+    margin: 0 auto;
+    transform: translateY(-3.6rem);
+    z-index: -1;
+}
+
+input{
+    display: block;
+    width: 80%;
+    padding: 1.4rem 3rem;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background:none;
+    outline: none;
+    border: 1.5px solid rgb(0, 255, 255);
+    border-radius: 8px;
+}
+input:focus, input:valid{
+    color: white;
+}
+button{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgb(23,23,23);
+    border: none;
+    font-size: 1.0rem;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    letter-spacing: 1px;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 0 10px 12px -10px rgb(0, 255, 255, 0.8);
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: none;
+    padding: 9px;
+    border: 1px solid rgb(0, 255, 255);
+    transition: box-shadow 0.15s ease;
+}
+.text-small-bold{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.icon{
+    position: relative;
+    top: -3.5rem;
+    margin-left: 11%;
+    width:2rem;
+}
+.sign-up{
+    margin-top: 40px;
+}
+.sign-up p{
+    color: #d3d3d3;
+    font-size: 1.4rem;
+}
+.create{
+    color: rgb(0, 255, 255);
+    font-size: 1.4rem;
+    padding-bottom: 1.5px;
+    border-bottom: 1px solid rgb(0, 255, 255);
+}
+.ribbon-1 {
+	width: 250px;
+	padding: 16px;
+	position: absolute;
+	text-align: center;
+	color: #f0f0f0;
+	top: 30px;
+	left: -60px;
+	transform: rotate(-45deg);
+	background-color: rgb(0, 229, 255);
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 1);
+}
+.labels{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 77%;
+    margin: 0 auto;
+}
+.input-entity{
+    display: flex;
+    flex-direction: column;
+}
+.eye{
+    display: inline-block;
+    position: relative;
+    margin-left: 42rem;
+    transform: translateY(-5.5rem);
+    top: auto;
+    cursor: pointer;
+}
+.text-large1{
+    color: white;
+    font-weight: 300;
+    font-size: 3rem;
+    padding-bottom: 8px;
+}
+
+@keyframes logo {
+    0%{
+
+    }
+    50%{transform: translateY(+15px);
+        
+    }
+    100%{
+        transform: translateY(-11px);
+    }
+}

@@ -1,0 +1,4 @@
+<?php
+mkdir("oop/test");
+
+?>

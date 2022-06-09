@@ -1,0 +1,33 @@
+.a { 
+    color: rgb(0, 0, 0);
+}
+.navbar-light .navbar-brand {
+    color: rgba(233, 27, 27, 0.9);
+}
+.navbar {
+    background-color: black;
+}
+.button {
+    margin :2rem;
+}
+
+.container {
+  padding: 2rem 0rem;
+}
+
+.c-container {
+  background-color: gray;
+  border-radius: 0.5rem;
+  padding: 1.2rem 1.2rem;
+  margin: 1rem 0rem;
+}
+
+h4 {
+  margin: 2rem 0rem;
+}
+
+.buttons {
+  /* margin-bottom: 2rem; */
+  margin-right: 20px;
+ 
+}
